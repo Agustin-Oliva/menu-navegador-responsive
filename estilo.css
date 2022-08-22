@@ -55,3 +55,33 @@ img {
     font-size: 1.1em;
 }
 
+@media screen and (max-width:560px) {
+    .header{
+        flex-direction: column;
+        min-width: 320px;
+        }
+    .logo{
+        justify-content: center;
+        height: 100%;
+    }
+     .nav{
+        background-color: #312930;
+     }
+    .lista{
+        flex-direction: column;
+        height: 100%;
+
+    }
+    
+    .lista li {
+        padding: 1em;
+        border-bottom: 1px solid #1d1a1d;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lista li:hover{
+        background-color: #1d1a1d;
+        color: #fff;
+    }
+    }
