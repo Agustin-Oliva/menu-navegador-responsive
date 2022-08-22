@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #443a44;
+    display: flex;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.logo h3{
+    padding-left: 5px;
+}
+
+
+
+img {
+    width: 70px;
+}
+
+
+.nav{
+    width: 100%;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+
+}
+
+.lista li {
+    list-style: none;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista li a:hover{
+    color: #fff;
+    font-size: 1.1em;
+}
+
